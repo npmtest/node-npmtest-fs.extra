@@ -1,6 +1,6 @@
 # npmtest-fs.extra
 
-#### test coverage for  [fs.extra (v1.3.2)](https://github.com/coolaj86/utile-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-fs.extra.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fs.extra) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fs.extra.svg)](https://travis-ci.org/npmtest/node-npmtest-fs.extra)
+#### basic test coverage for  [fs.extra (v1.3.2)](https://github.com/coolaj86/utile-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-fs.extra.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fs.extra) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fs.extra.svg)](https://travis-ci.org/npmtest/node-npmtest-fs.extra)
 
 #### fs.move and fs.copy for Node.JS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fs.extra/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fs.extra/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fs.extra/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fs.extra/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fs.extra/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fs.extra/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fs.extra/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fs.extra/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fs.extra/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fs.extra/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fs.extra/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fs.extra/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "node test.js"
     },
-    "version": "1.3.2"
+    "version": "1.3.2",
+    "bin": {}
 }
 ```
 
